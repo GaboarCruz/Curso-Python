@@ -6,4 +6,4 @@ ataque = "Puño Trueno"
 
 daño = nivel + 50
 
-print(nombre, "a usado" , ataque, ",realiza un daño de:", daño)
+print(nombre + " ha usado: " + ataque + ", realiza un daño de: ", daño)

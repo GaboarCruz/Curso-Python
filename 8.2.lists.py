@@ -3,7 +3,7 @@ b = a
 print(a)
 print(b)
 del a[0]
-c = a[:] # Metodo Slice para hacer una copia sin modificar la original
+c = a[:] # Metodo Slice para hacer una copia sin modificar la original.
 print(id(a))
 print(id(b))
 print(id(c))

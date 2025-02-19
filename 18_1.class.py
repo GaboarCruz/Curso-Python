@@ -26,7 +26,6 @@ class BankAccount:
         else:
             print("No se puede depositar dinero, cuenta desactivada")
 
-
     def withdraw(self, amount):
         if self.is_active:
             if amount <= self.balance:
